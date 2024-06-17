@@ -1,5 +1,3 @@
-from pathlib import Path
-import tkinter as tk
 from tkinter import Tk, Canvas, Entry, Label, Button, PhotoImage
 from geopy.geocoders import Photon
 from timezonefinder import TimezoneFinder
