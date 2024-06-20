@@ -35,7 +35,7 @@ def getWeather():
     clock.config(text=current_time)
 
     # weather
-    api = f"https://api.openweathermap.org/data/2.5/forecast?lat={location.latitude}&lon={location.longitude}&appid=13d50d2480b63c129a95e6586001454c"
+    api = f"https://api.openweathermap.org/data/2.5/forecast?lat={location.latitude}&lon={location.longitude}&appid=your_api_key_here"
     json_data = requests.get(api).json()
 
     # temperature
